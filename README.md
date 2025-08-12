@@ -1,8 +1,6 @@
 # Stock & Reddit Sentiment Analyzer
 
-This project analyzes Reddit discussions about stocks, identifies the most mentioned tickers, and measures the sentiment toward them.  
-The included training script uses **VADER sentiment scoring** to label comments, and then trains a **TF-IDF + Logistic Regression** model to predict sentiment.
-
+Reddit Stock Sentiment Analyzer — Built a sentiment classification pipeline for Reddit stock discussions using Python, scikit-learn, TF-IDF vectorization, and VADER sentiment analysis. Implemented balanced Logistic Regression for imbalanced datasets, achieved ~68% accuracy. Deployed model to predict sentiment from new user input. Used Git for version control and hosted project on GitHub.
 ---
 
 ## ✨ Features
