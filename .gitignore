@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+.env/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model outputs
+models/*.joblib
+
+# Ignore data cache files
+*.csv
+!data/clean_comments.csv  # Keep the sample/training data if needed
