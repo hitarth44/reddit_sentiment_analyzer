@@ -1,27 +1,9 @@
-# Reddit Stock Sentiment Analyzer
-
-This project analyzes Reddit discussions about stocks, identifies the most mentioned tickers, and measures sentiment toward them.  
-It includes:
-
-- A training script (`train_model.py`) that uses VADER sentiment scoring to label comments and trains a TF-IDF + Logistic Regression classifier.
-- An exploratory data analysis notebook (`sentiment_analysis.ipynb`) with visualizations and insights.
-
-# Stock & Reddit Sentiment Analyzer
-
-Reddit Stock Sentiment Analyzer — Built a sentiment classification pipeline for Reddit stock discussions using Python, scikit-learn, TF-IDF vectorization, and VADER sentiment analysis. Implemented balanced Logistic Regression for imbalanced datasets, achieved ~68% accuracy. Deployed model to predict sentiment from new user input. Used Git for version control and hosted project on GitHub.
----
+## Reddit Stock Sentiment Analyzer — Built a sentiment classification pipeline for Reddit stock discussions using Python, scikit-learn, TF-IDF vectorization, and VADER sentiment analysis. Implemented balanced Logistic Regression for imbalanced datasets, achieved ~68% accuracy. Deployed model to predict sentiment from new user input. Used Git for version control and hosted project on GitHub.
 
 ## ✨ Features
 
 - Reads pre-cleaned Reddit comment data from CSV.
-- Uses **VADER SentimentIntensityAnalyzer** to assign sentiment labels:
-  - `positive` if compound ≥ 0.05
-  - `negative` if compound ≤ -0.05
-  - `neutral` otherwise
-- Trains a TF-IDF + Logistic Regression model with `class_weight='balanced'` to handle imbalance.
-- Saves trained model for later predictions.
-- Provides EDA and visualizations in a Jupyter notebook.
-- Uses **VADER SentimentIntensityAnalyzer** to assign labels:
+  - Uses **VADER SentimentIntensityAnalyzer** to assign labels:
   - `positive` if compound ≥ 0.05
   - `negative` if compound ≤ -0.05
   - `neutral` otherwise
